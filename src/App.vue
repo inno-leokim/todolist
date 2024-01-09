@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <section class="totoapp">
+        <section class="todoapp">
             <Header @insertTodo="insertTodo" />
             <Todo :todos="filteredList" 
                 @removeTodo="removeTodo"
